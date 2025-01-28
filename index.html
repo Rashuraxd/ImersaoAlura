@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"
+    />
+
+    <title>Front-end Gemini</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png"
+        alt="Estudo"
+        class="img_principal"
+      />
+      <h1>Estudos Alura</h1>
+    </header>
+    <main>
+      <section>
+        <input
+          type="text"
+          placeholder="Qual tópico você está procurando?"
+          id="campo-pesquisa"
+        />
+        <button onclick="pesquisar()">Pesquisar</button>
+      </section>
+
+      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+      <p>
+        2024 - Curso oferecido pela Alura sobre HTML, CSS e JavaScript
+        <br />
+        Revisão sobre as ferramentas e métodos utilizados
+      </p>
+    </footer>
+    <script src="ferramentas.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
